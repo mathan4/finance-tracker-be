@@ -9,6 +9,7 @@ const transactionSchema = new mongoose.Schema(
           transactionDescription: {
             type: String,
             required: true,
+            enum: ['food', 'entertainment', 'other'],
           },
           transactionDate: {
             type: Date,
