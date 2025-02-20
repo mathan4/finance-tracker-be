@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [
-<<<<<<< HEAD
+
       {
         "src": "app.js",  
         "use": "@vercel/node"
@@ -19,18 +19,4 @@
     ]
   }
   
-=======
-        {
-            "src": "app.js",
-            "use": "@vercel/node"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "app.js"
-        }
-    ]
 
-}
->>>>>>> 63b2f7eccb114df560e1e4c8b425a47a5f625c27
